@@ -6,7 +6,10 @@
     "autoload": {
         "psr-4": {
             "Patter\\WpThemeFunctionality\\": "src/"
-        }
+        },
+        "files": [
+            "functions.php"
+        ]
     },
     "authors": [
         {
