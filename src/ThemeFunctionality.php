@@ -1,6 +1,6 @@
 <?php
 
-namespace Patter\WPThemeFunctionality;
+namespace Patter\WpThemeFunctionality;
 
 class ThemeFunctionality
 {
