@@ -1,0 +1,20 @@
+{
+    "name": "patter/wp-theme-functionality",
+    "description": "A shared functionality package for Patter WordPress themes.",
+    "type": "library",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Patter\\WpThemeFunctionality\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Alex Whitlock",
+            "email": "alex@patter.co.uk"
+        }
+    ],
+    "require": {
+        "php": ">=8.0"
+    }
+}
