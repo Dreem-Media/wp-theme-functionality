@@ -7,6 +7,7 @@ class ThemeFunctionality
     public function __construct()
     {
         add_action('after_setup_theme', [$this, 'themeSetup']);
+        echo 'Theme functionality class loaded';
     }
 
     public function themeSetup()
