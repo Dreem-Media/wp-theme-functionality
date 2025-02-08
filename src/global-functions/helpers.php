@@ -1,7 +1,7 @@
 <?php
 
-if (! function_exists('patter_post_title_2')) {
-    function patter_post_title_2($post_id = null)
+if (! function_exists('patter_post_title')) {
+    function patter_post_title($post_id = null)
     {
         // Example logic: You can call other helper functions or work with ACF, etc.
         $title = get_post_meta($post_id ?? get_the_ID(), 'patter_field_post__page_headline_h1', true);
